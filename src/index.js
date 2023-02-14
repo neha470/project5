@@ -4,7 +4,7 @@ const multer = require('multer');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://purunaik:purunaik@cluster0.zgxxxk0.mongodb.net/group12Database", {useNewUrlParser: true})
+mongoose.connect("mongodb+srv://nehafunctionup:functionup@cluster0.vagtsgm.mongodb.net/neha11-DB%22", {useNewUrlParser: true})
 .then(()=> console.log("Connected to database"))
 .catch((err)=> console.log(err.message))
 
